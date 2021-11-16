@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#"> <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="keywords" content="">
+<meta name="description" content="ここに説明文を設定">
+<title>お問い合わせ</title>
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@twitteraccount">
+<meta property="og:site_name" content="サイト名">
+<meta property="og:title" content="サイトタイトル">
+<meta property="og:description" content="サイト説明文">
+<meta property="og:url" content="https://hoge.ecc.com/">
+<meta property="og:image" content="https://hoge.ecc.com/ogp.png">
+<meta property="og:type" content="website">
+<link rel="shortcut icon" href="http://www.hoge.hoge/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="apple-touch-icon" href="http://www.hoge.hoge/logo.png">
+<link rel="stylesheet" href="./css/contact.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+          <a href="index.html"><h1><img src="img/logo.png" alt="ロゴ" /></h1></a>
+          <ul class="nav_content">
+            <li><a href="about.html">RAKURAIについて</a></li>
+            <li><a href="shopping.html">貸し出せるもの</a></li>
+            <li><a href="event.html">イベント一覧</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+            <li>
+              <a href="login.html"
+                ><img
+                  src="img/Icon awesome-user-circle.png"
+                  alt="ログインアイコン"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </header>
+    <main>
+        <div class="containWrap">
+            <h1 class="contact">お問い合わせ</h1>
+            <form action="" method="post">
+                <div class="nameWrap">
+                    <section>
+                        <p>氏名</p>
+                        <span class="nameindent">
+                            <input type="text" name="your_name" placeholder="田中太郎" class="name">
+                        </span>
+                    </section>
+                    <section>
+                        <p class="mailadrees">メールアドレス</p>
+                        <span class="emailindent">
+                            <input type="email" name="your_mail" placeholder="tanakatarou@example.com" class="email">
+                        </span>
+                    </section>
+                    <section>
+                        <p class="Contents">内容</p>
+                        <span class="messageindent">
+                            <textarea name="message" id="" cols="" rows="" placeholder="お問い合わせ内容をご記入ください" class="message"></textarea>
+                        </span>
+                    </section>
+                <p id="send">送信する<input type="submit" value="送信する"></p>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>
+            <small>
+                copylight&copy;rakurai
+            </small>
+        </p>
+    </footer>
+</body>
+</html>
